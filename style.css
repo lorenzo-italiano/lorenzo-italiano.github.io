@@ -61,14 +61,11 @@ a{
 }
 
 .clearright{
-	padding: 10% 0%;
-	margin: 0px 20px 0px 0px;
+	padding:0%;
+	margin: 0%;
 	display: inline-block;
-	background-color: transparent;
 	width: 50px;
 	float: right;
-	border-bottom : 3px solid transparent;
-	border-top: 3px solid transparent;
 }
 
 .clearright:hover{
@@ -289,7 +286,37 @@ section h1 {
 	background-color: white;
 }
 
-
+.to-top{
+	color:white;
+	padding-top:1.8em;
+	display:inline-block;/* or block */
+	position:relative;
+	border-color:white;
+	text-decoration:none;
+	transition:all .3s ease-out;
+}
+.to-top:before{
+	content:'▲';
+	font-size:2em;
+	position:absolute;
+	top:-40%;
+	left:0%;
+	margin-left:-.7em;
+	border:solid .13em white;
+	border-radius:10em;
+	width:1.4em;
+	height:1.4em;
+	line-height:1.3em;
+	border-color:inherit;
+	transition:transform .5s ease-in;
+}
+.to-top:hover{
+	color:black;
+	border-color:black;
+}
+.to-top:hover:before{
+	transform: rotate(360deg);
+}
 
 
 
