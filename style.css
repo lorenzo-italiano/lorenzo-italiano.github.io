@@ -281,7 +281,7 @@ section h1 {
 }
 
 .main{
-	height: 500%;
+	height: 460%;
 	width: 100%;
 	position:absolute;
 	top: 100%;
@@ -372,4 +372,19 @@ section h1 {
 	width:20%;
 	height: auto;
 	z-index: 2;
+}
+
+.imgrecadr{
+	width: 100%;
+	height: auto;
+}
+
+.main2{
+	height: 160%;
+	width: 100%;
+	position:absolute;
+	top: 100%;
+	left: 0%;
+	background-color: white;
+	z-index: -1;
 }
