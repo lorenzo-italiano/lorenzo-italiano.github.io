@@ -375,8 +375,11 @@ section h1 {
 }
 
 .imgrecadr{
-	width: 100%;
+	width: 80%;
 	height: auto;
+	margin-top: %;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 .main2{
@@ -429,7 +432,9 @@ section h1 {
 }
 
 .txtmain{
-	text-align: center;
-	font-size: 1vw;
-	font-style: bold;
+	text-align: justify;
+	font-size: 1.2vw;
+	font-family: Arial;
+	margin-left: 10%;
+	margin-right: 10%;
 }
