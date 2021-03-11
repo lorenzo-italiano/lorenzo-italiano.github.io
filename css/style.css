@@ -11,7 +11,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 117.5%;
+    height: 100%;
     z-index: 0;
 }
 
@@ -29,7 +29,7 @@
     left: 0;
     top: 15%;
     width: 100%;
-    height: 100%;
+    height: 200%;
     background-color:  #1a1a1a;
 }
 
@@ -43,12 +43,12 @@
 }
 
 .rectinfos{
-    position: relative;
+    position: absolute;
     left: 0;
     top: 0;
     margin: 2% 10%;
     width: 80%;
-    height: 76%;
+    height: 38%;
     background-color: darkorange;
 }
 

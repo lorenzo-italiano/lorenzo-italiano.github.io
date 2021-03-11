@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/x-icon" href="images/logosite.ico"/>
+	<link rel="icon" type="image/x-icon" href="images/petitlogo.png"/>
+	<title>Hover-Corp. | Inscription</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width" />
+	<link rel="stylesheet" type="text/css" href="css/compte.css">
+	<link rel="stylesheet" media="screen and (max-width: 940px)" href="css/compte-responsive.css" />
+</head>
+<body>
+	<div id="page">
+		<div class="right"><div id="croix"><a href="index.html">✖</a></div></div>
+		<h1>Inscription Hover-Corp</h1>
+		<br>
+		<br>
+		<form>
+			<div class="space-between">
+				<div class="nom-pre-sous">
+					<label>Prénom*</label><br>
+					<input type="text" pattern="^[A-Z][a-z]*" required>
+				</div>
+				<div class="nom-pre-sous">
+					<label>NOM*</label><br>
+					<input type="text" pattern="[A-Z]*" required>
+				</div>
+			</div>
+			<br>
+			<p>
+				<label>E-mail*</label><br>
+				<input type="email" class="écrire" required>
+			</p>
+			<br>
+			<p>
+				<label>Numéro de téléphone</label><br>
+				<input type="tel" class="écrire" pattern="[0-9]{10}">
+			</p>
+			<br>
+			<p>
+				<label>Mot de passe*</label><br>
+				<div>
+					<input type="password" class="écrire mdp oeil-inline" required="True">
+					<div class="oeil-inline oeil">👁</div>
+				</div>
+			</p>
+			<br>
+			<p>
+				<label>Confirmer mot de passe*</label><br>
+				<input type="password" class="écrire">
+			</p>
+			<br>
+			<p>
+				<label>Date de naissance*</label><br>
+				<div class="space-between-naissance">
+					<input type="number" class="naissance" placeholder="Jour" max="31" required="True">
+					<input type="number" class="naissance" placeholder="Mois" max="12" required="True">
+					<input type="number" class="naissance" placeholder="Année" min="1900" max="2019" required="True">
+				</div>
+			</p>
+			<br>
+			<br>
+			<div class="align">
+				<button class="button" formaction="Inscription-reussi.html">SUIVANT</button>
+			</div>
+		</form>
+		<div class="champs">*<i>Champs obligatoire</i></div>
+	</div>
+</body>
+</html>

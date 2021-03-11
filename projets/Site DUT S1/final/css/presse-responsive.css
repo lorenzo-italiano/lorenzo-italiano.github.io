@@ -1,0 +1,88 @@
+@media screen and (max-device-width: 940px){
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 8%;
+}
+
+aside{
+    background-color: #EEE;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.articles{
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 10%;
+}
+
+
+.titrebody1{
+    border-left: 6px solid blue;
+    background-color:lightgrey;
+    padding-left:10px;
+    font-size:20px;
+}
+
+.titrebody2{
+    border-right: 6px solid blue;
+    background-color:lightgrey;
+    padding-right:10px;
+    font-size:20px;
+    text-align: right;
+}
+
+#articles h2 {
+	text-align: center;
+}
+
+article:nth-child(even) {
+    margin-right: 10%;
+}
+
+article:nth-child(odd) {
+    margin-left: 10%;
+}
+
+.redimimages{
+    display: none;
+}
+
+.img{
+	display: block;
+	width: 20%;
+	float: right;
+	margin: 0% 5%;
+}
+
+
+.verticalcenter{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+.txtcontent{
+    display: flex;
+    flex-direction: row
+}
+.margincontent1{
+    margin-left: 5%;
+}
+
+.margincontent2{
+    margin-right: 5%;
+}
+
+
+
+}

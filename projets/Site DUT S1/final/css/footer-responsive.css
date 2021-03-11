@@ -1,0 +1,57 @@
+@media screen and (max-width:940px){
+
+body{
+	margin: auto;
+}
+
+footer {
+	background-color: #D5D5D5;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	color: black;
+	scroll-behavior: smooth;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+}
+
+#goTop {
+	margin: 20px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.master {
+	margin: 0 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.master div{
+	margin: 20px 0px;
+}
+
+
+.network_logo_div {
+	display: flex;
+	justify-content: space-around;
+}
+
+.network_logo {
+	width: 40px;
+}
+
+.master .networks-bas{
+	display: block;
+}
+
+.master .networks{
+	display: none;
+}
+
+}
