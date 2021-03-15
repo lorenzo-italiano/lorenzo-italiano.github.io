@@ -155,13 +155,11 @@ body{
 
 .video-container {
     overflow: hidden;
-    position: absolute;
-    bottom: 2%;
+    position: relative;
     width:60%;
     left:20%;
 
 }
-
 
 .video-container::after {
     padding-top: 56.25%;
@@ -179,11 +177,6 @@ body{
 }
 
 .containerbg{
-    position:absolute;
-    bottom: -280%;
-    width: 100%;
-    margin-top: 5%;
-    background-color: #1e1e1e;
 }
 
 .containerbg2{
