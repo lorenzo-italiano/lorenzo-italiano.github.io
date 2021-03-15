@@ -1,3 +1,6 @@
+HTML{
+    scroll-behavior: smooth;
+}
 .pagegarde{
     position: absolute;
     left: 0;
@@ -40,16 +43,6 @@
     transform: translate(-50%);
     max-height: 90%;
     justify-items: center;
-}
-
-.rectinfos{
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin: 2% 10%;
-    width: 80%;
-    height: 38%;
-    background-color: darkorange;
 }
 
 .imgprofil{
@@ -250,6 +243,61 @@ body{
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    top: 85%;
-    width: 10%;
+    top: -6%;
+    width: 14%;
+}
+
+.rectinfos{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 2% 10%;
+    width: 80%;
+    height: 30%;
+    background-color: darkorange;
+}
+
+.rectbtn{
+    position: absolute;
+    left: 0;
+    top: 32.5%;
+    margin: 0 10%;
+    width: 80%;
+    height: 6%;
+    background-color: darkorange;
+}
+
+.rectdown{
+    position: absolute;
+    left: 0;
+    top: 42%;
+    margin: 2% 10%;
+    width: 80%;
+    height: 0.1%;
+}
+.rectformations{
+    position: absolute;
+    left: 0;
+    top: 45%;
+    margin: 2% 10%;
+    width: 80%;
+    height: 38%;
+    background-color: darkorange;
+}
+
+.rectcompetences{
+
+}
+
+
+.rectautresinfos{
+
+}
+
+.rectinterets{
+
+}
+
+.rectcontacts{
+
 }
