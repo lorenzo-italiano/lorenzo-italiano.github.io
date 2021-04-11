@@ -277,3 +277,4 @@ txtProjet10.addEventListener("mouseleave", function () {
     txtProjet10.classList.add("cacher");
     txtProjet10titre.classList.add("cacher");
 });
+
