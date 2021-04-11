@@ -285,21 +285,57 @@ body{
     background-color: darkorange;
 }
 
+.txtDivInformations{
+    margin-left: 5%;
+}
+
+.txtDivInformationsContacts{
+    position:relative;
+    width: 60%;
+    margin-left: 50%;
+    margin-top:20%;
+    transform: translate(-50%,-50%);
+}
+
 .rectcompetences{
-
+    position: absolute;
+    left: 0;
+    top: 95%;
+    margin: 2% 10%;
+    width: 80%;
+    height: 34.25%;
+    background-color: darkorange;
 }
 
 
-.rectautresinfos{
-
-}
+/*.rectautresinfos{
+    position: absolute;
+    left: 0;
+    top: 140%;
+    margin: 2% 10%;
+    width: 80%;
+    height: 34.25%;
+    background-color: darkorange;
+}*/
 
 .rectinterets{
-
+    position: absolute;
+    left: 0;
+    top: 140%;
+    margin: 2% 10%;
+    width: 80%;
+    height: 34.25%;
+    background-color: darkorange;
 }
 
 .rectcontacts{
-
+    position: absolute;
+    left: 0;
+    top: 185%;
+    margin: 2% 10%;
+    width: 80%;
+    height: 34.25%;
+    background-color: darkorange;
 }
 
 .noScrollbar{
