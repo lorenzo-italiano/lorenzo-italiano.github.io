@@ -1,0 +1,166 @@
+@media screen and (max-device-width: 940px){
+
+body{
+	background-color: #D5D5D5;
+	font-family : Roboto, Helvetica Neue, sans-serif;
+	margin: 0%;
+}
+
+#page{
+	background-color: white;
+	width: 100%;
+	margin: auto;
+	margin-top: 7%;
+	margin-bottom: 7%;
+}
+
+h1{
+	background-color: transparent;
+	margin: auto;
+	margin-left: 10%;
+	font-size: 25px;
+}
+
+
+input{
+	border: none;
+	border-bottom: 1px solid grey;
+	font-family : Roboto, Helvetica Neue, sans-serif;
+	height: 19px;
+}
+
+label{
+	font-family : Roboto, Helvetica Neue, sans-serif;
+	width: 100%;
+	margin: auto;
+	font-size: 19px;
+}
+
+.écrire{
+	width: 100%;
+}
+
+.button{
+	background-color: white;
+	color : black;
+	text-decoration:none;
+	border-radius: 5px;
+  	border: 2px solid black;
+ 	width: 50%;
+ 	padding: 3% 0%; 
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 0px;
+  	cursor: pointer;
+  	font-weight: bold;
+  	text-align: center;
+}
+
+.button:hover{
+	background-color: black;
+	color: white;
+}
+
+.button a{
+	text-align: center;
+	padding: 5% 16%;
+	margin: 0px;
+}
+
+.button a:hover{
+	background-color: black;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.align{
+	text-align: center;
+}
+
+#croix:hover{
+	transform: rotate(180deg);
+	transition-duration: 0.5s;
+	translate : center center;
+}
+
+#croix{
+	height: 37px;
+  	width : 20px;
+  	text-align: center;
+}
+
+#croix a{
+	text-decoration: none;	
+  	color: black;
+  	font-size: 25px;
+}
+
+.right{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.checkbox-text{
+	font-size: 14px;
+}
+
+.hr-compte{
+	background-color:black;
+	height: 2px;
+}
+
+.space-between{
+	display: flex;
+	justify-content: space-between;
+	background-color: transparent;
+}
+
+.nom-pre-sous{
+	background-color: transparent;
+	font-size: 14px;
+	width: 45%
+}
+
+.nom-pre-sous input{
+	width: 100%
+}
+
+.space-between-naissance{
+	display: flex;
+	justify-content: space-between;
+	background-color: transparent;
+}
+
+.naissance {
+	width: 30%;
+	font-size: 14px;
+}
+
+h2{
+	text-align: center;
+}
+
+.champs{
+	font-size: 11px;
+}
+
+.mdp{
+	width: 100%;
+}
+
+.oeil-inline{
+	display: inline-block;
+}
+
+.oeil{
+	text-transform: uppercase;
+	position: absolute;
+	margin-left: -3%;
+}
+
+
+}
