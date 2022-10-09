@@ -2,7 +2,7 @@
 
   <div id="banner">
 
-    <div>
+    <div >
       <div>
         <h2>Hello, I'm Lorenzo ITALIANO</h2>
         <h1>Welcome to my Portfolio !</h1>
@@ -10,8 +10,13 @@
     </div>
 
     <div>
-      <img src="../assets/profile_img.jpg">
+      <img src="../assets/profile_img.jpg" alt="profile image">
     </div>
+
+    <a href="/#work">
+      <img src="../assets/down-arrow.png" alt="go down" id="dropDownImg">
+    </a>
+
 
   </div>
 
@@ -30,9 +35,12 @@ export default {
 
 #banner{
   min-width: 100vw;
-  min-height: 88vh;
+  min-height: 92vh;
   display: grid;
   grid-template-columns: 50% 50%;
+  /*background-image: url("../assets/ac.png");*/
+  /*background-size: 30%;*/
+  /*background-repeat: repeat;*/
 }
 
 #banner>div{
@@ -50,15 +58,31 @@ export default {
 
 h1{
   font-weight: bold;
-  font-size: 3vw;
+  font-size: max(3vw, 20px);
 }
 
 h2{
-  font-size: 2vw;
+  font-size: max(2vw, 18px);
 }
 
-/*@media screen and (max-width: 576px) {
+#dropDownImg{
+  position: absolute;
+  bottom: 0;
+  width: 70px;
+  left: 50%;
+  translate: -50%;
+  cursor: pointer;
+  z-index: 0;
+}
 
+@media screen and (max-width: 576px) {
+  #banner{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
 }
 
 @media screen and (max-width: 780px) and (min-width: 576px) {
@@ -69,6 +93,7 @@ h2{
 
 }
 
+/*
 @media screen and (min-width: 992px) and (min-width: 1200px){
 }
 

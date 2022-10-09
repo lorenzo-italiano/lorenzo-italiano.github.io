@@ -71,8 +71,10 @@ export default {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin:2px 5%;
+    margin:2px;
+    padding: 0 5%;
     background-color: white;
+    z-index: 999;
   }
 
   header *{
@@ -95,7 +97,7 @@ export default {
   }
 
   .sideTitle{
-    font-size: 1.75vw;
+    font-size: max(20px, 1.75vw);
     font-weight: 700;
   }
 
@@ -128,16 +130,18 @@ export default {
       right: 0;
       width: 50vw;
       height: 100vh;
-      background-color: grey;
+      background-color: white;
       flex-direction: column;
       justify-content: center;
+      -webkit-box-shadow: 0 0 8px 4px rgba(0,0,0,0.3);
+      box-shadow: 0 0 8px 4px rgba(0,0,0,0.3);
     }
 
     #closeCross{
       width: min(6.5%,20px);
       height: auto;
       position: absolute;
-      right: 0;
+      right: 20px;
       z-index: 999;
     }
 
@@ -150,6 +154,7 @@ export default {
   /* DEBUT ANIMATION BORDER BOTTOM ON HOVER D'UN a */
   a {
     position: relative;
+    font-size: max(14px, 1.15vw);
 
   }
 

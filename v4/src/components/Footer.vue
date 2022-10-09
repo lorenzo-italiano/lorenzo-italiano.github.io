@@ -3,7 +3,7 @@
     <!-- TODO changer la police d'ecrire d'en dessous -->
     <div id="copyrightAndTerms">
       <p>
-        Lorenzo-ITALIANO, 2022©
+        Made with Vue3 - Lorenzo-ITALIANO, 2022©
       </p>
       <div id="links">
 
@@ -131,6 +131,10 @@ export default {
   #links>a{
     display:flex;
     align-items: center;
+  }
+
+  p{
+    font-size: max(1.1vw,10px);
   }
 
 

@@ -70,7 +70,10 @@
 <!--        <embed src="../assets/CV.pdf" type="application/pdf" width="100px" height="600px" />-->
 <!--        &lt;!&ndash;<a target="_blank" href="/CV">Click here to see my CV</a>&ndash;&gt;-->
 <!--      </div>-->
-      <img class="cvImg" src="../assets/English_CV2022.png" alt="CV">
+      <a href="/img/English_CV2022.e804eeba.png" target="_blank" class="cvImgContainer">
+        <img class="cvImg" src="../assets/English_CV2022.png" alt="CV">
+      </a>
+
     </div>
 
 
@@ -139,26 +142,30 @@ export default {
   text-align: left;
 }
 
+p{
+  font-size: max(1.2vw,14px);
+}
+
 .category{
   padding:2% 5%;
 }
 
 .categoryContent{
-  padding:2% 5%;
+  padding:1% 5%;
 }
 
 .categorySubContent{
-  padding: 0 7.5%;
+  padding: 10px 2.5%;
 }
 
 h1{
   font-weight: bold;
-  font-size: 2.5vw;
+  font-size: max(2.5vw,20px);
 }
 
 h2{
   font-weight: bold;
-  font-size: 1.5vw;
+  font-size: max(1.5vw,18px);
 }
 
 .imgProjets{
@@ -203,7 +210,19 @@ h2{
   text-decoration: underline;
 }
 
+.contactLinks > p{
+  font-size: max(1.2vw,12px);
+}
+
 .cvImg{
+  width: 100%;
+  cursor: zoom-in;
+}
+
+.cvImgContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 50%;
 }
 
