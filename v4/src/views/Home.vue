@@ -3,11 +3,10 @@
   <BannerView></BannerView>
 
   <div class="category" id="work">
-    <h1>My work</h1>
-
+    <h1>{{ $t("work.title") }}</h1>
 
     <div class="categoryContent">
-      <h2>Here are some of my projects</h2>
+      <h2>{{ $t("work.subtitle") }}</h2>
       <img class="imgProjets" src="../assets/vignettes/vignette_MinesAles.png" alt="Mines Alès project">
       <img class="imgProjets" src="../assets/vignettes/vignette_Ungoogle.png" alt="Ungoogle project">
 
@@ -15,8 +14,8 @@
 
     <div class="categoryContent">
       <h2>
-        If you want to see more of my work, you can check my git
-        <a href="https://github.com/lorenzo-italiano" target="_blank">here</a>
+        {{ $t("work.git-ad") }}
+        <a href="https://github.com/lorenzo-italiano" target="_blank">{{ $t("work.here") }}</a>
       </h2>
     </div>
 
@@ -25,99 +24,87 @@
 
   <div class="category" id="about">
 
-    <h1>About me</h1>
+    <h1>{{ $t("about-me.title")}}</h1>
 
     <div class="categoryContent">
-      <h2>General</h2>
+      <h2>{{ $t("about-me.general.title")}}</h2>
       <div class="categorySubContent">
 
         <p>
-          I'm Lorenzo ITALIANO, 20 years old french student.<br/>
-          Currently an engineering student in Computer Science and Management at Polytech Montpellier, France.<br/>
-          My passions are computer sciences and sports.
+          {{ $t("about-me.general.text1") }} <br>
+          {{ $t("about-me.general.text2") }} <br>
+          {{ $t("about-me.general.text3") }}
         </p>
       </div>
     </div>
 
     <div class="categoryContent">
-      <h2>Education</h2>
+      <h2>{{ $t("about-me.education.title") }}</h2>
       <div class="categorySubContent">
-        <p>
-          2019-2021 | Technical University Diploma in Computer Sciences and management | IUT Montpellier-Sète | Montpellier, France
-        </p>
-        <p>
-          2021-2024 | Engineering diploma in Computer Sciences and Management | Polytech | Montpellier, France
-        </p>
+        <p>{{ $t("about-me.education.iut") }}</p>
+        <p>{{ $t("about-me.education.polytech") }}</p>
       </div>
     </div>
 
     <div class="categoryContent">
-      <h2>Work experience</h2>
+      <h2>{{ $t("about-me.work-experience.title") }}</h2>
       <div class="categorySubContent">
-        <p>
-          6 Avril 2021 - 25 Juin 2021 : Stage Laboratoire Sciences du Risque (LSR)
-
-          Ecole des mines d'Alès
-
-          Travail sur une simulation de gestion de crise en programmation multi-agent sous Gama
-        </p>
+        <p>{{ $t("about-me.work-experience.mines-ales") }}</p>
       </div>
     </div>
 
     <div class="categoryContent" id="cvContainer">
-      <h1>CV / Resume</h1>
-<!--      <div class="categorySubContent">-->
-<!--        <embed src="../assets/CV.pdf" type="application/pdf" width="100px" height="600px" />-->
-<!--        &lt;!&ndash;<a target="_blank" href="/CV">Click here to see my CV</a>&ndash;&gt;-->
-<!--      </div>-->
-      <a href="/img/English_CV2022.e804eeba.png" target="_blank" class="cvImgContainer">
-        <img class="cvImg" src="../assets/English_CV2022.png" alt="CV">
+      <h1>{{ $t("about-me.cv") }}</h1>
+      <a v-if="$i18n.locale==='en'" href="/img/English_CV.c879ed78.png" target="_blank" class="cvImgContainer">
+        <img class="cvImg" src="../assets/English_CV.png" alt="CV">
       </a>
-
+      <a v-if="$i18n.locale==='fr'" href="/img/CV_Français.8fb2884e.png" target="_blank" class="cvImgContainer">
+      <img class="cvImg" src="../assets/CV_Français.png" alt="CV">
+      </a>
     </div>
 
 
   </div>
 
   <div class="category" id="contact">
-    <h1>Contact me</h1>
+    <h1>{{ $t("contact.title") }}</h1>
 
     <div id="contactContentDiv" class="categoryContent">
 
       <div>
-        <p>Don't hesitate to get in touch with me if you want to. You can reach me by the following social medias.</p>
+        <p>{{ $t("contact.intro") }}</p>
         <div class="categorySubContent">
 
           <a class="contactLinks" href="https://www.linkedin.com/in/lorenzo-italiano-dev/" target="blank">
             <img src="../assets/linkedin-logo-dark.png" alt="linkedIn logo" class="contactLinksImg">
-            <p>My LinkedIn profile</p>
+            <p>{{ $t("contact.linkedin") }}</p>
           </a>
 
           <a class="contactLinks" href="mailto:lorenzo.italiano34@gmail.com" target="blank">
             <img src="../assets/gmail-logo-dark.png" alt="Gmail logo" class="contactLinksImg">
-            <p>My email adress</p>
+            <p>{{ $t("contact.email") }}</p>
           </a>
 
           <a class="contactLinks" href="https://www.instagram.com/lorenzo_ita_/" target="blank">
             <img src="../assets/instagram-logo-dark.png" alt="Instagram logo" class="contactLinksImg">
-            <p>My instagram profile</p>
+            <p>{{ $t("contact.instagram") }}</p>
           </a>
 
           <a class="contactLinks" href="https://github.com/lorenzo-italiano/" target="blank">
             <img src="../assets/github-logo-dark.png" alt="Github logo" class="contactLinksImg">
-            <p>My github profile</p>
+            <p>{{ $t("contact.github") }}</p>
           </a>
 
           <a class="contactLinks" href="https://discord.com/" target="blank">
             <img src="../assets/discord-logo-dark.png" alt="Discord logo" class="contactLinksImg">
-            <p>My Discord tag is Guldo#3033</p>
+            <p>{{ $t("contact.discord") }}</p>
           </a>
 
         </div>
       </div>
 
       <div id="contactImgDiv">
-        <img id="contactImg" src="../assets/contact-img.jpg">
+        <img id="contactImg" src="../assets/contact-img.jpg" alt="contact illustration">
       </div>
 
     </div>

@@ -2,9 +2,7 @@
   <footer>
     <!-- TODO changer la police d'ecrire d'en dessous -->
     <div id="copyrightAndTerms">
-      <p>
-        Made with Vue3 - Lorenzo-ITALIANO, 2022©
-      </p>
+      <p>{{ $t("footer.copyright") }}</p>
       <div id="links">
 
         <a href="https://www.linkedin.com/in/lorenzo-italiano-dev/" target="blank">

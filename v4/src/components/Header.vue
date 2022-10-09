@@ -1,18 +1,21 @@
 <template>
   <header>
-    <a href="./" class="sideTitle">HOME</a>
+    <a href="./" class="sideTitle">{{ $t("header.home") }}</a>
     <nav id="basicNav">
         <div class="container">
-          <router-link to="/#work">WORK</router-link>
+          <router-link to="/#work">{{ $t("header.work") }}</router-link>
         </div>
         <div class="container">
-          <router-link to="/#about">ABOUT ME</router-link>
+          <router-link to="/#about">{{ $t("header.about") }}</router-link>
         </div>
         <div class="container">
-          <router-link to="/#cvContainer">CV</router-link>
+          <router-link to="/#cvContainer">{{ $t("header.cv") }}</router-link>
         </div>
         <div class="container">
-          <router-link to="/#contact">CONTACT</router-link>
+          <router-link to="/#contact">{{ $t("header.contact") }}</router-link>
+        </div>
+        <div class="container">
+          <locale-changer />
         </div>
 
     </nav>
@@ -25,13 +28,16 @@
       <div class="modal" v-if="burgerOpen">
 
         <div class="container">
-          <router-link to="/#work" class="burgerNav">WORK</router-link>
+          <router-link to="/#work" class="burgerNav">{{ $t("header.work") }}</router-link>
         </div>
         <div class="container">
-          <router-link to="/#about" class="burgerNav">ABOUT ME</router-link>
+          <router-link to="/#about" class="burgerNav">{{ $t("header.about") }}</router-link>
         </div>
         <div class="container">
-          <router-link to="/#contact" class="burgerNav">CONTACT</router-link>
+          <router-link to="/#contact" class="burgerNav">{{ $t("header.contact") }}</router-link>
+        </div>
+        <div class="container">
+          <locale-changer />
         </div>
       </div>
 
@@ -49,8 +55,10 @@
 </template>
 
 <script>
+import LocaleChanger from "@/components/localeChanger";
 export default {
   name: "Header-view",
+  components: {LocaleChanger},
   data() {
     return {
       burgerOpen:false,
@@ -71,7 +79,6 @@ export default {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin:2px;
     padding: 0 5%;
     background-color: white;
     z-index: 999;
@@ -85,9 +92,11 @@ export default {
   nav{
     display: flex;
     flex-direction: row;
-    gap: 10%;
-    justify-content: center;
+    gap: 20px;
+    justify-content: flex-end;
     align-items: center;
+    max-width: 80%;
+    flex-wrap: wrap;
   }
 
   a{

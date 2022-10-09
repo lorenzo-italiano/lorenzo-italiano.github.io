@@ -4,8 +4,8 @@
 
     <div >
       <div>
-        <h2>Hello, I'm Lorenzo ITALIANO</h2>
-        <h1>Welcome to my Portfolio !</h1>
+        <h2>{{ $t("banner.subtitle") }}</h2>
+        <h1>{{ $t("banner.title") }}</h1>
       </div>
     </div>
 
