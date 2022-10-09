@@ -143,6 +143,9 @@ p{
 
 .categorySubContent{
   padding: 10px 2.5%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 h1{
