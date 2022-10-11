@@ -1,13 +1,7 @@
 <template>
   <div class="locale-changer">
-    <select v-model="$i18n.locale">
-      <option value="fr">
-        French
-      </option>
-      <option value="en">
-        English
-      </option>
-    </select>
+    <img v-if="$i18n.locale==='fr'" @click="$i18n.locale='en'" src="../assets/icons8-la-france-48.png" alt="french flag (change to french language">
+    <img v-if="$i18n.locale==='en'" @click="$i18n.locale='fr'" src="../assets/united-kingdom.png" alt="uk flag (change to english language)">
   </div>
 </template>
 
@@ -18,12 +12,14 @@ export default {
 </script>
 
 <style>
-select{
-  padding: 5px;
-  cursor: pointer;
-  border: none;
-  background-color: white;
-  -webkit-box-shadow: 0 0 11px 4px rgba(0,0,0,0.08);
-  box-shadow: 0 0 11px 4px rgba(0,0,0,0.08);
-}
+  img{
+    width: 32px;
+    cursor: pointer;
+  }
+
+  .locale-changer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 </style>
