@@ -1,0 +1,53 @@
+{
+  "header": {
+    "home":"HOME",
+    "work": "PROJETS",
+    "about": "A PROPOS",
+    "cv": "CV",
+    "contact": "CONTACTS"
+  },
+  "banner": {
+    "title": "Bienvenue sur mon Portfolio !",
+    "subtitle": "Bonjour, je suis Lorenzo ITALIANO"
+  },
+  "work": {
+    "title": "Mes projets",
+    "subtitle" : "Voici certains de mes projets",
+    "git-ad" : "Si vous voulez voir plus de projets, vous pouvez allez voir mon git",
+    "here": "ici"
+  },
+  "about-me": {
+    "title": "A propos de moi",
+    "general": {
+      "title": "Général",
+      "text1": "Je m'appelle Lorenzo ITALIANO, étudiant de 20 ans.",
+      "text2": "Actuellement élève ingénieur en Informatique et Gestion à Polytech Montpellier.",
+      "text3": "Mes passions sont le sport et l'informatique."
+    },
+    "education": {
+      "title": "Parcours scolaire",
+      "iut": "2019-2021 - DUT Informatique - IUT Montpellier-Sète - Montpellier",
+      "polytech": "2021-2024 - Diplôme d'ingénieur en Informatique et Gestion - Polytech Montpellier"
+    },
+    "work-experience": {
+      "title": "Experiences professionnelles",
+      "mines-ales": "6 Avril 2021 - 25 Juin 2021 : Stage Laboratoire Sciences du Risque (LSR) Ecole des mines d'Alès Travail sur une simulation de gestion de crise en programmation multi-agent sous Gama"
+    },
+    "cv": "Mon CV"
+  },
+  "contact": {
+    "title": "Contactez moi",
+    "intro": "N'hésitez pas a me contacter. Vous pouvez me contacter via les réseaux sociaux suivants :",
+    "linkedin": "Mon profil LinkedIn",
+    "email": "Mon adresse mail",
+    "instagram": "Mon profil Instagram",
+    "github": "Mon profil Github",
+    "discord": "Mon tag Discord est Guldo#3033"
+  },
+  "footer": {
+    "copyright": "Fait avec React - Lorenzo-ITALIANO, 2022©"
+  },
+  "buttons": {
+    "goBack": "Revenir à la page d'accueil"
+  }
+}

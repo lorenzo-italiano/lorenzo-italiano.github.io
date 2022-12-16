@@ -1,0 +1,53 @@
+{
+  "header": {
+    "home":"HOME",
+    "work": "WORK",
+    "about": "ABOUT ME",
+    "cv": "CV",
+    "contact": "CONTACT"
+  },
+  "banner": {
+    "title": "Welcome to my Portfolio !",
+    "subtitle": "Hello, I'm Lorenzo Italiano"
+  },
+  "work": {
+    "title": "My work",
+    "subtitle" : "Here are some of my projects",
+    "git-ad" : "If you want to see more of my work, you can check my git",
+    "here": "here"
+  },
+  "about-me": {
+    "title": "About me",
+    "general": {
+      "title": "General",
+      "text1": "I'm Lorenzo Italiano, 20 years old french student.",
+      "text2": "Currently an engineering student in Computer Science and Management at Polytech Montpellier, France.",
+      "text3": "My passions are computer sciences and sports."
+    },
+    "education": {
+      "title": "Education",
+      "iut": "2019-2021 - Technical University Diploma in Computer Sciences and management - IUT Montpellier-Sète - Montpellier, France",
+      "polytech": "2021-2024 - Engineering diploma in Computer Sciences and Management - Polytech - Montpellier, France"
+    },
+    "work-experience": {
+      "title": "Work experience",
+      "mines-ales": "6 Avril 2021 - 25 Juin 2021 : Internship in a research lab (Laboratoire Sciences des Risques) at Ecole des mines d'Alès, working on a simulation to help manage natural disasters"
+    },
+    "cv": "CV / Resume"
+  },
+  "contact": {
+    "title": "Contact me",
+    "intro": "Don't hesitate to get in touch with me if you want to. You can reach me by the following social medias.",
+    "linkedin": "My LinkedIn profile",
+    "email": "My email adress",
+    "instagram": "My instagram profile",
+    "github": "My github profile",
+    "discord": "My Discord tag is Guldo#3033"
+  },
+  "footer": {
+    "copyright": "Made with React - Lorenzo-Italiano, 2022©"
+  },
+  "buttons": {
+    "goBack": "Go Back"
+  }
+}

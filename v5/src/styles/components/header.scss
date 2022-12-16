@@ -1,0 +1,111 @@
+header{
+  position: sticky;
+  top: 0;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  background-color: white;
+  z-index: 999;
+}
+
+header *{
+  text-decoration: none;
+  color:black;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 80%;
+  flex-wrap: wrap;
+}
+
+a{
+  font-size: 1vw;
+}
+
+.sideTitle{
+  font-size: max(20px, 1.75vw);
+  font-weight: 700;
+}
+
+.container{
+  white-space: nowrap;
+}
+
+#burger{
+  display: none;
+}
+
+.modal{
+  display: none;
+}
+
+@media (max-width: 800px) {
+  #basicNav{
+    display: none;
+  }
+
+  #burger{
+    display: flex;
+    cursor: pointer;
+  }
+
+  .modal{
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50vw;
+    height: 100vh;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-box-shadow: 0 0 8px 4px rgba(0,0,0,0.3);
+    box-shadow: 0 0 8px 4px rgba(0,0,0,0.3);
+  }
+
+  #closeCross{
+    width: min(6.5%,20px);
+    height: auto;
+    position: absolute;
+    right: 20px;
+    z-index: 999;
+  }
+
+  .burgerNav{
+    font-size: 5vw;
+  }
+
+}
+
+/* DEBUT ANIMATION BORDER BOTTOM ON HOVER D'UN a */
+a {
+  position: relative;
+  font-size: max(14px, 1.15vw);
+
+}
+
+a::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: black;
+  right: 0;
+  bottom: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.container:hover a::after {
+  width: 100%;
+  left: 0;
+}
+
+/* FIN ANIMATION BORDER BOTTOM ON HOVER D'UN a */

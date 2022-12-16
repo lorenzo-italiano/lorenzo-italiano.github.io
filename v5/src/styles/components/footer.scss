@@ -1,0 +1,76 @@
+footer{
+  display: flex;
+  flex-direction: column;
+}
+
+#copyrightAndTerms{
+  background-color: #252422;
+  color: white;
+  padding: 1% 5%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#termsPolicy{
+  display: flex;
+  flex-direction: row;
+}
+
+#termsPolicy > a{
+  color: gray;
+}
+
+#footerLinks{
+  display: flex;
+  justify-content: space-between;
+}
+
+#footerSiteLogo *{
+  font-size: 2vw;
+  font-weight: 900;
+}
+
+#contactLink *{
+  font-size: 2vw;
+}
+
+#stayInTheKnown *{
+  font-size: 1.25vw;
+}
+
+#footerLinks *{
+  font-size: 1.25vw;
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
+
+footer a{
+  color: #f4f4f4;
+}
+
+.contactInfosFooter{
+  text-decoration: underline;
+}
+
+#links>a>img{
+  width: 16px;
+}
+
+
+#links{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#links>a{
+  display:flex;
+  align-items: center;
+}
+
+p{
+  font-size: max(1.1vw,10px);
+}

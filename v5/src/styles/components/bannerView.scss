@@ -1,0 +1,76 @@
+#banner{
+  position: relative;
+  min-width: 100vw;
+  min-height: 92vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  /*background-image: url("../assets/ac.png");*/
+  /*background-size: 30%;*/
+  /*background-repeat: repeat;*/
+}
+
+#banner>div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+#banner>div>img{
+  width: 75%;
+  border-radius: 50%;
+}
+
+h1{
+  font-weight: bold;
+  font-size: max(3vw, 20px);
+}
+
+h2{
+  font-size: max(2vw, 18px);
+}
+
+#dropDownImg{
+  position: absolute;
+  bottom: 0;
+  width: 70px;
+  left: 50%;
+  translate: -50%;
+  cursor: pointer;
+  z-index: 0;
+}
+
+#dropDownImg > img{
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  #banner{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 780px) and (min-width: 576px) {
+
+}
+
+@media screen and (max-width: 992px) and (min-width: 780px) {
+
+}
+
+/*
+@media screen and (min-width: 992px) and (min-width: 1200px){
+}
+
+@media screen and (min-width: 1200px) {
+}*/
+
+/*576px for portrait phones.
+    768px for tablets.
+    992px for laptops.
+    1200px for large devices.*/
