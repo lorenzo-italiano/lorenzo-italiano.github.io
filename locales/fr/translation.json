@@ -49,5 +49,61 @@
   },
   "buttons": {
     "goBack": "Revenir à la page d'accueil"
-  }
+  },
+  "projectsList": [
+    {
+      "id": 1,
+      "title": "Travaux personnels de Front-End",
+      "subtitle": "",
+      "description": "Voici quelques exemples de mini-projets front-end que je réalise pour apprendre de nouvelles technologies, de nouvelles bibliothèques ou de nouvelles choses à faire, comme le changement de mode lumière/obscurité par exemple. Liens des répos Github: <a href=\"https://github.com/lorenzo-italiano/ReactShowcase\">https://github.com/lorenzo-italiano/ReactShowcase</a>(peut être en privé en ce moment).",
+      "sections": [
+        { "title": "Countries Flag App", "description": "J'ai fait ce projet pour apprendre comment faire des thèmes sombres/clairs en premier lieu. J'ai aussi appris à faire de la pagination et un peu de transitions de pages avec la bibliothèque react-motion.", "img":{} },
+        { "title": "ReactMotion Practice", "description": "J'ai fait ce petit projet pour en apprendre plus sur react-motion, comment animer les éléments d'une page, lorsque vous la faites défiler, la survolez ou avez toute autre interaction avec elle.", "img":{} }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Chat en C",
+      "subtitle": "",
+      "description": "Ce projet a été réalisé lors de la première année d'école d'ingénieur. Le projet consistait à construire un chat en C par groupe de 2 et nous avions environ 1 mois. Nous avons travaillé en cycle agile où nous avions différents objectifs pour chaque semaine de développement et de test.\n Vous pouvez voir le projet avec les liens github suivants :\n<a href=”https://github.com/lorenzo-italiano/projetC-client/”>https://github.com/lorenzo-italiano/projetC-client/</a>\n<a href=”https://github.com/lorenzo-italiano/projetC-server/”>https://github.com/lorenzo-italiano/projetC-server/</a>",
+      "sections": [
+        { "title": "L'objectif", "description": "L'objectif du projet était de créer un chat en C avec un serveur et plusieurs clients. Le but était d'apprendre à faire du C proprement, à gérer la mémoire, les threads multiples et d'autres éléments spécifiques au C. Le chat est également équipé de commandes pour l'utilisateur, la gestion de canaux (créer, rejoindre, parler à un canal), de messages privés et une interface graphique faite avec ncurses.", "img":{} },
+        { "title": "Les difficultés", "description": "Les principales difficultés étaient liées au langage C. Principalement tout ce qui concerne les threads, comme la synchronisation des threads. Egalement tout ce qui concerne la gestion de la mémoire.", "img":{} },
+        { "title": "Ce que j'en ai appris", "description": "J'ai beaucoup appris sur le langage C et tous les principes qui s'y rapportent, comme la gestion de la mémoire, la gestion des threads et la synchronisation.  ", "img":{} }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Projet IoT/RaspberryPi",
+      "subtitle": "",
+      "description": "Il s'agissait d'un projet scolaire. Le but de ce projet était de nous présenter l'IoT pour la première fois. Le projet a eu lieu pendant ma première année d'école d'ingénieurs. Nous avions deux mois pour réaliser un projet IoT en utilisant un RaspberryPi 3 et des capteurs pour réaliser un sujet que nous avions créé et choisi.",
+      "sections": [
+        { "title": "L'objectif", "description": "Le sujet que j'ai créé et choisi de faire était une salle d'événement connectée. Le but du projet était de pouvoir surveiller une salle d'événement avec certaines informations comme le nombre de personnes dans la salle et un système de sécurité avec des caméras. Le projet comporte également un système de carte à badge pour le personnel autorisé, lorsqu'ils badgent leur carte, une photo de leur visage est prise afin d'obtenir une trace de qui a badgé leur carte en cas de problème.", "img":{} },
+        { "title": "Les difficultés", "description": "C'était la première fois que j'utilisais un Raspberry et que je faisais de l'IoT de manière générale, je ne savais donc pas grand-chose au début du projet. De plus, la plupart des capteurs que nous devions utiliser n'offraient pas une très bonne précision. Cela signifie que j'ai dû gérer les erreurs de précision causées par le matériel dans le code et cela a pris un certain temps pour obtenir une bonne précision.", "img":{} },
+        { "title": "Ce que j'en ai appris", "description": "Dans ce projet, j'ai beaucoup appris sur les RaspberryPi et bien sûr sur l'IoT en général. J'ai appris à utiliser des capteurs avec un RaspberryPi et python ainsi qu'à écrire des pilotes pour les capteurs en python. J'ai également appris plusieurs méthodes pour transférer les données du Raspberry vers une source externe de stockage de données avec une API, Dweet.io et d'autres méthodes.", "img":{} }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "La simulation CESAR pour la gestion de crises",
+      "subtitle": "Stage à l'école des mines d'Alès, du 5 avril au 25 juin 2021",
+      "description": "Ce projet est réalisé par un laboratoire de recherche (Laboratoire des Sciences des Risques) de l'école des Mines d'Alès. J'ai eu la chance de travailler sur ce projet lors de mon stage de fin d'études de 3 mois à l'IUT. Il s'agit d'une simulation appelée CESAR qui décrit une ville où l'on peut tester différentes crises telles qu'un incendie. Vous pouvez contrôler certains agents qui, dans le monde réel, peuvent recevoir des ordres de personnes élues, comme le maire, qui peut donner des ordres aux policiers, aux pompiers, etc. Le but est de réduire les pertes pendant la simulation, comme le ferait un vrai maire ou un préfet par exemple.",
+      "sections": [
+        { "title": "L'objectif", "description": "Le but du projet est de former les élus à prendre les meilleures décisions en cas de crise telle que décrite par la simulation. Il est vraiment important de former ces personnes car ces crises ne se produisent pas souvent, heureusement, et les représentants ne sont donc pas habitués à les gérer. Nous devons les former car il y a des vies en jeu et ils doivent être prêts à sauver le maximum de personnes et d'enjeux matériel.", "img":{} },
+        { "title": "Les difficultés", "description": "Les principales difficultés concernaient Gama, le langage de programmation orienté agent que nous avons utilisé. Il s'agit d'un langage créé par des chercheurs français et il est encore en cours de développement. Nous avons trouvé des bugs et des fonctionnalités qui n'étaient pas encore développées en cours de route. Nous nous sommes également heurtés à des problèmes de documentation, certaines fonctionnalités n'étant pas encore complètement documentées, nous avons dû résoudre certains problèmes par nous-mêmes.", "img":{} },
+        { "title": "Ce que j'en ai appris", "description": "J’ai appris le domaine de la gestion de crises, les enjeux qui y sont liés et le développement de systèmes multi-agents. J’ai aussi appris à communiquer au sein d'une équipe hétéroclite et à travailler de manière beaucoup professionnelle qu'à l'école.", "img":{} }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Dégoogliser un téléphone",
+      "subtitle": "Projet de 2ème année d'IUT de fin 2020 a début 2021",
+      "description": "Il s'agissait du projet de deuxième année pendant mes études à l'IUT. Le but était de faire des projets réalistes pour tous les étudiants en groupe de 3 ou 4 avec un vrai client et un vrai projet à réaliser. Dans mon groupe nous étions 3 (Enzo Dardaillon, Germain Galtier et moi-même). Notre sujet était de dégoogliser un smartphone, c'est-à-dire de débarrasser le téléphone de tous les produits des GAFAM (principalement tous les produits Google) pour essayer d'obtenir le meilleur niveau de protection et d'open source possible. Le but principal était de faire des smartphones sécurisés pour les employés des grandes entreprises.",
+      "sections": [
+        { "title": "L'objectif", "description": "Pour ce projet, nous avions plusieurs objectifs donnés par notre client. Tout d'abord, nous devions faire une analyse sur les fichiers d'un smartphone pour découvrir comment un téléphone android est fait. Ensuite, nous devions essayer de trouver comment changer l'OS du téléphone et aussi trouver le meilleur OS pour faire un smartphone sécurisé. Nous devions ensuite effectuer les opérations nécessaires pour réaliser le changement d'OS. Enfin, nous devions créer un cloud sécurisé de la manière la plus simple possible afin de garantir un cloud qui pourrait être installé et stocké facilement sur n'importe quel serveur de l'entreprise pour éviter que les employés n'utilisent d'autres services cloud dépendant d'autres entreprises comme Google Drive.", "img":{} },
+        { "title": "Les difficultés", "description": "Le principal inconvénient était que nous n'avions jamais travaillé sur android auparavant. Nous n'y connaissions rien et nous découvrions donc tout en cours de route. De plus, il y avait beaucoup de recherches, d'essais et d'échecs, de comparaison des meilleures technologies à utiliser, et c'était un peu difficile à gérer.", "img":{} },
+        { "title": "Ce que j'en ai appris", "description": "Dans ce projet, j'ai beaucoup appris sur le fonctionnement d'android, j'ai appris les technologies liées à android comme adb. J'ai également appris à connaître les systèmes d'exploitation open source et surtout LineageOS. J'ai également beaucoup appris sur les serveurs Apache, comment en déployer un avec Docker et déployer un cloud simple sur le serveur de notre client.", "img":{} }
+      ]
+    }
+  ]
 }

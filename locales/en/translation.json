@@ -49,5 +49,61 @@
   },
   "buttons": {
     "goBack": "Go Back"
-  }
+  },
+  "projectsList": [
+    {
+      "id": 1,
+      "title": "Front-End Practices",
+      "subtitle": "",
+      "description": "Here are some of my sample front-end projects that I do to learn some new technologies, libraries or new things to do such as light/dark mode switch for instance. Github link: <a href=\"https://github.com/lorenzo-italiano/ReactShowcase\">https://github.com/lorenzo-italiano/ReactShowcase</a>(might be in private at the moment).",
+      "sections": [
+        { "title": "Countries Flag App", "description": "I made this project to learn how to make dark/light themes in the first place. I also learned to do some pagination, a little bit of page transitions with react-motion library.", "img":{} },
+        { "title": "ReactMotion Practice", "description": "I made this little project to learn more about react-motion, how to animate items in a page, when you scroll, hover or have any other interaction with it.", "img":{} }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Chat in C",
+      "subtitle": "",
+      "description": "This was a project from the first year of engineering school. The project was to build a chat in C per group of 2 and we had approximately 1 month. We worked in agile cycles where we had different objectives for each week of development and testing.\n You can see the project with the following git links: \n <a href='https://github.com/lorenzo-italiano/projetC-client/'>https://github.com/lorenzo-italiano/projetC-client/</a> <a href='https://github.com/lorenzo-italiano/projetC-server/'>https://github.com/lorenzo-italiano/projetC-server/</a>",
+      "sections": [
+        { "title": "The objective", "description": "The objective of the project was to make a chat in C with a server and multiple possible clients. The purpose was to learn how to do proper C, manage memory, multiple threads and other C specific stuff. The chat is also shipped with commands, channel management (create, join, talk to a channel), private messages and a graphical interface made with ncurses.", "img":{} },
+        { "title": "The difficulties", "description": "The main difficulties were related to the C language. Mainly all thread related stuff such as thread synchronization. Also everything related to memory management.", "img":{} },
+        { "title": "What did I learn from the project", "description": "I learned a lot about c language and all related principles such as memory management, thread management and synchronization. ", "img":{} }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Raspberry school project",
+      "subtitle": "",
+      "description": "This was a school project. The purpose of the project was to introduce IoT for the first time to us. The project took place during my first year in engineering school. We had two months to do an IoT project using a RaspberryPi 3 and sensors to do a subject we created.",
+      "sections": [
+        { "title": "The objective", "description": "The subject I created and chose to do was a connected event room. The purpose of the project was to be able to monitor an event room with some information such as the number of people in the room and a security system with cameras. The project also features a badge card system for authorized personnel, when they swipe their card, a picture of their face is taken to get a trace of who swiped their card in case of a problem.", "img":{} },
+        { "title": "The difficulties", "description": "This was my first time using a Raspberry and doing IoT in general so I didn't know much in the beginning of the project. Also most of the sensors we had to use didn’t provide very good precision. This means I had to handle the errors in precision caused by the hardware in the code and it took some time to get a good precision.", "img":{} },
+        { "title": "What did I learn from the project", "description": "In this project I learned a lot about RaspberryPi and of course IoT in general. I learned how to use sensors with a RaspberryPi and python as well as writing drivers for sensors in python. I also learned several methods to transfer the data from the Raspberry to an external source of data storage with an API, Dweet.io and other methods. ", "img":{} }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "CESAR Simulation for crisis management",
+      "subtitle": "Internship at Mines Alès, 5 of April - 25 of June 2021",
+      "description": "This project is made by a research lab (Laboratoire des Sciences des Risques) of Mines d'Alès school of engineering. I had the chance to work on the project during a 3 months internship while I was studying at the UIT. It is a simulation called CESAR which describes a city where you can test different crises such as a fire. You can control some agents that in the real world can get orders from elected people such as the mayor can give orders to policemen, firefighters and such. The purpose is to lower the losses during the simulation such as a real mayor would do.",
+      "sections": [
+        { "title": "The objective", "description": "The purpose of the project is to train the elected representatives to make the best decisions in case of a crisis such as described by the simulation. It’s really important to train those people because those crises don’t happen often thankfully, therefore the representatives are not used to handling them. We must train them because there are lives at stake and they must be prepared to save the maximum amount of both people and material issues.", "img":{} },
+        { "title": "The difficulties", "description": "The main difficulties were about Gama which is the agent oriented programming language we used. Because it's a language made by  French researchers and it's still in development. Sometimes we were figuring out bugs and features that weren't yet developed on the go. We also ran into documentation problems, some features were not fully documented yet so we had to figure out some stuff by ourselves.", "img":{} },
+        { "title": "What did I learn from the project", "description": "I learned the field of crisis management, the issues related to it and the development of multi-agent systems. I also learned to communicate within a heterogeneous team and to work in a much more professional way than at school.", "img":{} }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Ungoogle project",
+      "subtitle": "2nd year UIT Project - late 2020 / early 2021",
+      "description": "This was the 2nd year project during my studies in the UIT (University Institute of Technology). The purpose of this was to make realistic projects for all students in groups of 3 or 4 with a real client and a real project to achieve. In my group we were 3 (Enzo Dardaillon, Germain Galtier and myself). Our subject was to ungoogle a smartphone, meaning to clear the phone out of all FAANG products (mostly all Google products) to try to achieve the best level of protection and open source possible. The main purpose was to make secured smartphones for employees of big companies.",
+      "sections": [
+        { "title": "The objective", "description": "For this project we had multiple objectives given by our client. Firstly, we needed to do an analysis on a smartphone files to discover how an android phone is made. Then we needed to try to find out how to change the OS of the phone and also find the best OS to do a secured smartphone. We then needed to do the operations needed to achieve the OS swap. Lastly we needed to make a secured cloud the simplest way possible to ensure a cloud that could be installed and stored easily on any company server to avoid employees using other company dependant clouds such as google drive.", "img":{} },
+        { "title": "The difficulties", "description": "The main drawback was that we had never worked on android before. We didn't know anything about it and so we were discovering everything on the go. Also it was a lot of research, try and failure, comparing the best technologies to use, and this was a bit hard to manage.", "img":{} },
+        { "title": "What did I learn from the project", "description": "In this project I learned a lot about how android works, I learned android related technologies such as adb. I also learned about open source OS's and mostly about LineageOS. Also learned a lot about apache servers, how to deploy one with docker and deploying a simple cloud on it in our client's server.", "img":{} }
+      ]
+    }
+  ]
 }
