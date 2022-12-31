@@ -62,11 +62,10 @@ const Home = () => {
                                         }
                                     }
                                 >
-                                    <img src={project.img} alt={project.title} />
+                                    <img src={project.img} alt={t("projectsList." + (project.id-1) + ".title")} />
                                     <div className="info">
-                                        <h3>{project.title}</h3>
-                                        <p></p>
-                                        <p>Techos used: Gama Platform</p>
+                                        <h3>{ t("projectsList." + (project.id-1) + ".title") }</h3>
+                                        <p>{ t("projectsList." + (project.id-1) + ".subtitle") } </p>
                                     </div>
                                 </motion.div>
                             )}

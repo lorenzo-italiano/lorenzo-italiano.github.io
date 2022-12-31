@@ -31,18 +31,18 @@ const ProjectDetails = () => {
 				<>
 					<section id="introSection">
 						<div id="titleIntro">
-							<h1>{ projects[id-1].title}</h1>
-							<h2>{ projects[id-1].subtitle }</h2>
+							<h1>{ t("projectsList." + (id-1) + ".title")}</h1>
+							<h2>{ t("projectsList." + (id-1) + ".subtitle") }</h2>
 						</div>
 						<img src={projects[id-1].img} alt="project illustration"/>
-						<p>{ HTMLReactParser(projects[id-1].description) }</p>
+						<p>{ HTMLReactParser(t("projectsList." + (id-1) + ".description")) }</p>
 					</section>
 					{
 						projects[id - 1].sections.map( (section) => {
 							return(
 								<section className="otherSections">
-									<h1>{section.title}</h1>
-									<p>{ HTMLReactParser(section.description)}</p>
+									<h1>{ t("projectsList." + (id-1) + ".sections." + projects[id - 1].sections.indexOf(section) + ".title")}</h1>
+									<p>{ HTMLReactParser(t("projectsList." + (id-1) + ".sections." + projects[id - 1].sections.indexOf(section) + ".description"))}</p>
 									{/*<img src={section.img}/>*/}
 								</section>
 							)
