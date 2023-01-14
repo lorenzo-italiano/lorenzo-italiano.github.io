@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.31dd5e5b.css",
+    "main.css": "/static/css/main.1f318c42.css",
     "main.js": "/static/js/main.d83dc2b8.js",
     "static/media/vingette_raspberry.jpg": "/static/media/vingette_raspberry.8bf2b973fa6146bb938f.jpg",
     "static/media/contact-img.jpg": "/static/media/contact-img.7d0b30046584a1f0a356.jpg",
@@ -16,11 +16,11 @@
     "static/media/linkedin-logo-light.png": "/static/media/linkedin-logo-light.f0c723812d7385a8f214.png",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.31dd5e5b.css.map": "/static/css/main.31dd5e5b.css.map",
+    "main.1f318c42.css.map": "/static/css/main.1f318c42.css.map",
     "main.d83dc2b8.js.map": "/static/js/main.d83dc2b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.31dd5e5b.css",
+    "static/css/main.1f318c42.css",
     "static/js/main.d83dc2b8.js"
   ]
 }
