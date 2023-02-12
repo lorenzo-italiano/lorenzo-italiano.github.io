@@ -26,7 +26,7 @@ const ProjectDetails = () => {
 			}>
 				← {t("buttons.goBack")}
 			</button>
-			{ ( id > 0 && id <= 5 ) ?
+			{ ( id > 0 && id <= 7 ) ?
 				// FIXME
 				<>
 					<section id="introSection">

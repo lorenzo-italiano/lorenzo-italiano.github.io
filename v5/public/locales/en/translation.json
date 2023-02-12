@@ -53,6 +53,28 @@
   "projectsList": [
     {
       "id": 1,
+      "title": "Data Science",
+      "subtitle": "",
+      "description": "(Warning: This page is still in the process of writing)\nThe objective of this project was to learn about data science and to use the statistical tools and database methods seen during the courses. All this while processing and analyzing a large amount of data in order to answer a problem. This project was realized in a group of 3, composed of Tom Sartori, Romain Frezier and myself.",
+      "sections": [
+        { "title": "The objective", "description": "The objective of our subject was to analyze the infrastructure of electric vehicle charging stations in France. Our goal was to answer the question \"Is the distribution of charging infrastructures adapted in France?", "img":{} },
+        { "title": "The difficulties", "description": "We encountered some minor problems during this project. Some files were very large because of the geographic data, which resulted in a long processing time. To remedy this, we divided the files for different granularities (region and county) and made versions with and without the geographic data so that the statistical analyses would not be slowed down by geographic data that were not useful for processing. We also had problems with the Google colab tool, which is not adapted to large processing and sometimes had long calculation times. Moreover, this tool proved to be very inconvenient to work simultaneously on a notebook despite its name.", "img":{} },
+        { "title": "What did I learn from the project", "description": "I learned a lot during this project, I had never done a data processing project before. It was therefore very beneficial in the technologies and methods I was able to learn. First of all, I had the opportunity to use Qgis software in order to have first insights of our data in a geographical form. I also learned how to make interactive maps with Python Dash. Moreover, all the data processing and storage was quite unknown to me. So I learned how to set up a data lake and warehouse using AWS to store all the file formats we had and to make SQL queries directly on these files using AWS Athena. Then finally, I learned via the Pyspark and Pandas libraries to do ETL(Extract Transform Load) and ELT(Extract Load Transform) in order to process the data to be able to analyze it afterwards.", "img":{} }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Software Engineering",
+      "subtitle": "",
+      "description": "(Warning: This page is still in the process of writing)\nThis project consisted in putting into practice the concepts seen in class around software engineering. This project was done in groups of 4 people.\nWe had to use Java and JavaFX for the interface. The choice of the database  was on our hands. We chose MongoDB because it was the most appropriate to the needs we had identified for the project. Here is the link to the GitHub repository of the project: <a href=\"https://github.com/tom-sartori/WineCellarSE\",>Git Repository</a>",
+      "sections": [
+        { "title": "The objective", "description": "The objective of our project was to make a wine cellar application where each user can list his wine cellar(s) thanks to numbered locations which allows him to always know where his wine bottles are and also to make a live inventory when he takes or adds a bottle.", "img":{} },
+        { "title": "The difficulties", "description": "We encountered difficulties with JavaFX, as it is not the most documented technology nor the easiest to learn. It took us some time to adapt and learn.", "img":{} },
+        { "title": "What did I learn from the project", "description": "I learned a lot from this project because it was done in a very instructive way. I was able to learn how to do a project by being very guided on the steps to follow which allowed us to learn how to do each step well (mock-up, modeling, design, development & testing). I also learned a lot about software design and the appropriate architectures. I was also able to deepen my knowledge of Java and learn JavaFX which I didn't know until then.", "img":{} }
+      ]
+    },
+    {
+      "id": 3,
       "title": "Front-End Practices",
       "subtitle": "",
       "description": "Here are some of my sample front-end projects that I do to learn some new technologies, libraries or new things to do such as light/dark mode switch for instance. Github link: <a href=\"https://github.com/lorenzo-italiano/ReactShowcase\">https://github.com/lorenzo-italiano/ReactShowcase</a>(might be in private at the moment).",
@@ -62,7 +84,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 4,
       "title": "Chat in C",
       "subtitle": "",
       "description": "This was a project from the first year of engineering school. The project was to build a chat in C per group of 2 and we had approximately 1 month. We worked in agile cycles where we had different objectives for each week of development and testing.\n You can see the project with the following git links: \n <a href='https://github.com/lorenzo-italiano/projetC-client/'>https://github.com/lorenzo-italiano/projetC-client/</a> <a href='https://github.com/lorenzo-italiano/projetC-server/'>https://github.com/lorenzo-italiano/projetC-server/</a>",
@@ -73,7 +95,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 5,
       "title": "Raspberry school project",
       "subtitle": "",
       "description": "This was a school project. The purpose of the project was to introduce IoT for the first time to us. The project took place during my first year in engineering school. We had two months to do an IoT project using a RaspberryPi 3 and sensors to do a subject we created.",
@@ -84,7 +106,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 6,
       "title": "CESAR Simulation for crisis management",
       "subtitle": "Internship at Mines Alès, 5 of April - 25 of June 2021",
       "description": "This project is made by a research lab (Laboratoire des Sciences des Risques) of Mines d'Alès school of engineering. I had the chance to work on the project during a 3 months internship while I was studying at the UIT. It is a simulation called CESAR which describes a city where you can test different crises such as a fire. You can control some agents that in the real world can get orders from elected people such as the mayor can give orders to policemen, firefighters and such. The purpose is to lower the losses during the simulation such as a real mayor would do.",
@@ -95,7 +117,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 7,
       "title": "Ungoogle project",
       "subtitle": "2nd year UIT Project - late 2020 / early 2021",
       "description": "This was the 2nd year project during my studies in the UIT (University Institute of Technology). The purpose of this was to make realistic projects for all students in groups of 3 or 4 with a real client and a real project to achieve. In my group we were 3 (Enzo Dardaillon, Germain Galtier and myself). Our subject was to ungoogle a smartphone, meaning to clear the phone out of all FAANG products (mostly all Google products) to try to achieve the best level of protection and open source possible. The main purpose was to make secured smartphones for employees of big companies.",

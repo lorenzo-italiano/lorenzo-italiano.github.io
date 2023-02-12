@@ -5,7 +5,7 @@ import BannerView from "../../components/BannerView/BannerView";
 import { useNavigate } from "react-router-dom";
 
 // CV versions
-import frenchCV from "../../assets/CV_Français.png"
+import frenchCV from "../../assets/CV_Francais.png"
 import englishCV from "../../assets/English_CV.png"
 
 // Logos
@@ -118,12 +118,12 @@ const Home = () => {
                 <motion.div initial={{opacity:0, x: -200}} whileInView={{opacity:1, x:0, transition : {duration: 1}}} viewport={{ once: true }} className="categoryContent" id="cvContainer">
                     <h1>{t("about-me.cv")}</h1>
                     {i18n.language === "en" &&
-                        <a href="/static/media/English_CV.d4af0453167f65d1452b.png" target="_blank" className="cvImgContainer">
+                        <a href="static/media/English_CV.2f9466a3e12ee74b0f3d.png" target="_blank" className="cvImgContainer">
                             <img className="cvImg" src={englishCV} alt="CV"/>
                         </a>
                     }
                     {i18n.language === "fr" &&
-                        <a href="/static/media/CV_Fran%C3%A7ais.90f609994634561abaf9.png" target="_blank" className="cvImgContainer">
+                        <a href="static/media/CV_Francais.0417280d1ffb3f6e3877.png" target="_blank" className="cvImgContainer">
                             <img className="cvImg" src={frenchCV} alt="CV"/>
                         </a>
                     }
