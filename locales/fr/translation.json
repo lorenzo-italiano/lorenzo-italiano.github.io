@@ -53,6 +53,28 @@
   "projectsList": [
     {
       "id": 1,
+      "title": "Data Science",
+      "subtitle": "",
+      "description": "(Attention: Cette page est en cours de rédaction) L’objectif de ce projet était d’apprendre le milieu de la data science et d’utiliser les outils statistiques et les méthodes de bases de données vues lors des cours. Tout cela en effectuant des traitements et analyses sur une grande masse de données afin de répondre à une problématique. Ce projet a été réalisé en groupe de 3, composé de Tom Sartori, Romain Frezier et moi même.",
+      "sections": [
+        { "title": "L'objectif", "description": "L’objectif de notre sujet était d’analyser l’infrastructure des bornes de recharges de véhicules électriques en France. Notre but était de répondre à la problématique “La répartition des infrastructures de recharge est-elle adaptée en France ?”.", "img":{} },
+        { "title": "Les difficultés", "description": "Nous avons rencontré quelques problèmes mineurs au cours de ce projet. En effet, certains fichiers étaient très volumineux à cause des données géographiques, cela avait pour conséquence un temps de traitement assez long. Pour remédier à cela, nous avons divisé les fichiers pour différentes granularités (région et département) et fait des versions avec et sans les données géographiques afin que les analyses statistiques ne soient pas ralenties par des données géographiques pas utiles aux traitements. Nous avons également eu des soucis à cause de l’outil Google colab, en effet celui-ci n'est pas adapté à de gros traitements et avait parfois des temps de calcul assez long. De plus, cet outil s’est avéré très peu pratique pour travailler simultanément sur un notebook malgré son nom.", "img":{} },
+        { "title": "Ce que j'en ai appris", "description": "J’ai beaucoup appris lors de ce projet, en effet je n’avais jamais fait de projet de traitement de données auparavant. Cela m’a donc été très bénéfique dans les technologies et méthodes que j’ai pu apprendre. J’ai tout d’abord eu l’occasion d’utiliser le logiciel Qgis afin d’avoir des premiers aperçus de nos données sous forme géographique. J’ai également appris à faire des cartes interactives grâce à Python Dash. De plus, tout le traitement et stockage de la données m’était assez inconnu. J’ai donc appris comment mettre en place un lac de données et un entrepôt à l’aide d’AWS permettant de stocker tous les formats de fichiers que nous avions et de faire des requêtes SQL directement sur ces fichiers grâce à AWS Athena. Puis finalement, j’ai appris via les librairies Pyspark et Pandas à faire des ETL(Extract Transform Load) et ELT(Extract Load Transform) afin de traiter la donnée pour pouvoir l'analyser par la suite.", "img":{} }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Software Engineering",
+      "subtitle": "",
+      "description": "(Attention: Cette page est en cours de rédaction)\nCe projet consistait à mettre en pratique les concepts vus en cours autour de l'ingénierie logiciel. Ce projet s’est effectué en groupe de 4 personnes.\nTechnologies imposées : Java et JavaFX pour l’interface. Nous avons choisi de faire la base de données avec MongoDB parce qu’elle correspondait bien aux besoins que nous avions pour le projet. Voici le lien du dépôt GitHub du projet: <a href=\"https://github.com/tom-sartori/WineCellarSE\">Repo Git</a>",
+      "sections": [
+        { "title": "L'objectif", "description": "L’objectif de notre projet était de faire une application de cave à vin où chaque utilisateur peut recenser sa/ses cave(s) à vins grâce à des emplacements numérotés ce qui lui permet de toujours savoir où se trouvent ses bouteilles de vins et également de faire un inventaire en direct lorsqu’il sort ou ajoute une bouteille.", "img":{} },
+        { "title": "Les difficultés", "description": "Nous avons rencontré des difficultés vis-à-vis de JavaFX, en effet ce n’est pas la technologie la plus documentée ni la plus facile à prendre en main. Il nous a donc fallu un temps d’adaptation et d’apprentissage.", "img":{} },
+        { "title": "Ce que j'en ai appris", "description": "J’ai beaucoup appris de ce projet car il était fait de manière très instructive. J’ai ainsi pu apprendre à faire un projet en étant très guidé sur les étapes à suivre ce qui nous a permis d’apprendre à bien faire chaque étape (maquettage, modélisation, conception, développement & tests). J’ai également beaucoup appris sur la conception d’un logiciel, les architectures propices. J’ai également pu approfondir mes connaissances en Java et apprendre le JavaFX que je ne connaissais pas jusque-là.", "img":{} }
+      ]
+    },
+    {
+      "id": 3,
       "title": "Travaux personnels de Front-End",
       "subtitle": "",
       "description": "Voici quelques exemples de mini-projets front-end que je réalise pour apprendre de nouvelles technologies, de nouvelles bibliothèques ou de nouvelles choses à faire, comme le changement de mode lumière/obscurité par exemple. Liens des répos Github: <a href=\"https://github.com/lorenzo-italiano/ReactShowcase\">https://github.com/lorenzo-italiano/ReactShowcase</a>(peut être en privé en ce moment).",
@@ -62,7 +84,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 4,
       "title": "Chat en C",
       "subtitle": "",
       "description": "Ce projet a été réalisé lors de la première année d'école d'ingénieur. Le projet consistait à construire un chat en C par groupe de 2 et nous avions environ 1 mois. Nous avons travaillé en cycle agile où nous avions différents objectifs pour chaque semaine de développement et de test.\n Vous pouvez voir le projet avec les liens github suivants :\n<a href=”https://github.com/lorenzo-italiano/projetC-client/”>https://github.com/lorenzo-italiano/projetC-client/</a>\n<a href=”https://github.com/lorenzo-italiano/projetC-server/”>https://github.com/lorenzo-italiano/projetC-server/</a>",
@@ -73,7 +95,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 5,
       "title": "Projet IoT/RaspberryPi",
       "subtitle": "",
       "description": "Il s'agissait d'un projet scolaire. Le but de ce projet était de nous présenter l'IoT pour la première fois. Le projet a eu lieu pendant ma première année d'école d'ingénieurs. Nous avions deux mois pour réaliser un projet IoT en utilisant un RaspberryPi 3 et des capteurs pour réaliser un sujet que nous avions créé et choisi.",
@@ -84,7 +106,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 6,
       "title": "La simulation CESAR pour la gestion de crises",
       "subtitle": "Stage à l'école des mines d'Alès, du 5 avril au 25 juin 2021",
       "description": "Ce projet est réalisé par un laboratoire de recherche (Laboratoire des Sciences des Risques) de l'école des Mines d'Alès. J'ai eu la chance de travailler sur ce projet lors de mon stage de fin d'études de 3 mois à l'IUT. Il s'agit d'une simulation appelée CESAR qui décrit une ville où l'on peut tester différentes crises telles qu'un incendie. Vous pouvez contrôler certains agents qui, dans le monde réel, peuvent recevoir des ordres de personnes élues, comme le maire, qui peut donner des ordres aux policiers, aux pompiers, etc. Le but est de réduire les pertes pendant la simulation, comme le ferait un vrai maire ou un préfet par exemple.",
@@ -95,7 +117,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 7,
       "title": "Dégoogliser un téléphone",
       "subtitle": "Projet de 2ème année d'IUT de fin 2020 a début 2021",
       "description": "Il s'agissait du projet de deuxième année pendant mes études à l'IUT. Le but était de faire des projets réalistes pour tous les étudiants en groupe de 3 ou 4 avec un vrai client et un vrai projet à réaliser. Dans mon groupe nous étions 3 (Enzo Dardaillon, Germain Galtier et moi-même). Notre sujet était de dégoogliser un smartphone, c'est-à-dire de débarrasser le téléphone de tous les produits des GAFAM (principalement tous les produits Google) pour essayer d'obtenir le meilleur niveau de protection et d'open source possible. Le but principal était de faire des smartphones sécurisés pour les employés des grandes entreprises.",

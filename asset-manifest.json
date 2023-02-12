@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.1f318c42.css",
-    "main.js": "/static/js/main.d83dc2b8.js",
+    "main.js": "/static/js/main.022eac88.js",
     "static/media/vingette_raspberry.jpg": "/static/media/vingette_raspberry.8bf2b973fa6146bb938f.jpg",
     "static/media/contact-img.jpg": "/static/media/contact-img.7d0b30046584a1f0a356.jpg",
     "static/media/vignette_Mines.png": "/static/media/vignette_Mines.9dab940fd147014fd980.png",
     "static/media/vignette_reactShowcase.png": "/static/media/vignette_reactShowcase.f1988b5cabdd8f28d705.png",
     "static/media/profile_img.jpg": "/static/media/profile_img.c3e0a20df4876870889d.jpg",
-    "static/media/CV_Français.png": "/static/media/CV_Français.90f609994634561abaf9.png",
-    "static/media/English_CV.png": "/static/media/English_CV.d4af0453167f65d1452b.png",
+    "static/media/CV_Francais.png": "/static/media/CV_Francais.0417280d1ffb3f6e3877.png",
+    "static/media/English_CV.png": "/static/media/English_CV.2f9466a3e12ee74b0f3d.png",
+    "static/media/vignetteDataScience.png": "/static/media/vignetteDataScience.28955411d288c8f4d716.png",
     "static/media/vignette_chat_C.png": "/static/media/vignette_chat_C.22ccf1bcfe7659236ed0.png",
+    "static/media/vignetteSoftwareEngineering.png": "/static/media/vignetteSoftwareEngineering.6496955251e9dd8bec7e.png",
     "static/media/vignette_nextcloud.webp": "/static/media/vignette_nextcloud.1ae4a8be955f17cbe190.webp",
     "static/media/instagram-logo-dark.png": "/static/media/instagram-logo-dark.d54a062b8e74f1b314cd.png",
     "static/media/instagram-logo-light.png": "/static/media/instagram-logo-light.228b5a7313da47e1b6b7.png",
@@ -17,10 +19,10 @@
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.1f318c42.css.map": "/static/css/main.1f318c42.css.map",
-    "main.d83dc2b8.js.map": "/static/js/main.d83dc2b8.js.map"
+    "main.022eac88.js.map": "/static/js/main.022eac88.js.map"
   },
   "entrypoints": [
     "static/css/main.1f318c42.css",
-    "static/js/main.d83dc2b8.js"
+    "static/js/main.022eac88.js"
   ]
 }
